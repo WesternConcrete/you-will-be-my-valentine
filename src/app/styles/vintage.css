@@ -1,0 +1,56 @@
+.old-button {
+    font-family: Felipa, cursive;
+    font-weight: 400;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0px 10px;
+    line-height: 2em;
+    font-size: 25px;
+    text-transform: uppercase;
+    background: #adadad;
+    border-color: #cbcbcb #4e474e #4e474e #cbcbcb;
+    border-style: solid;
+    border-width: 5px;
+    color: var(--primary-text);
+    cursor: pointer;
+    text-shadow: 1px 1px 0px #000;
+}
+
+
+.main-bg {
+    background: url(/heart-background.gif)
+}
+
+.old-button:hover {
+    background: #969696;
+}
+
+.old-button:active {
+    background: #a2a2a2;
+    border-color: #e0e0e0 #5e595e #4e474e #cbcbcb;
+}
+
+.soundIcon {
+    width: 30px;
+    height: 28px;
+    display: block;
+    background: url(https://i.annihil.us/u/prod/marvel/movies/captain-marvel/assets/images/home/soundBtn.png);
+    background-size: 200% 200%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.soundIcon.muted {
+    background-position-x: right;
+}
+
+.soundIcon:hover {
+    background-position-y: bottom;
+}
